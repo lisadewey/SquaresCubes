@@ -59,14 +59,14 @@ namespace Lab3_SquaresCubes
 					Console.SetCursorPosition(10, 8);
 					Console.WriteLine(equal);
 					Console.SetCursorPosition(10, 8 + i);
-					Console.WriteLine(i * i);
+					Console.WriteLine(Math.Pow(i,2));
 
 					Console.SetCursorPosition(21, 7);
 					Console.WriteLine("Cubed");
 					Console.SetCursorPosition(21, 8);
 					Console.WriteLine(equalCubed);
 					Console.SetCursorPosition(21, 8 + i);
-					Console.WriteLine(i * i * i);
+					Console.WriteLine(Math.Pow(i,3));
 				}
 			}
 
