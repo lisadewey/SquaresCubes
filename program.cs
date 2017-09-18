@@ -102,7 +102,7 @@ namespace Lab3_SquaresCubes
 				}
 				else
 				{
-					Console.WriteLine("Sorry, I didn't understand that.. (y/n)?");
+					Console.WriteLine("Sorry, I didn't understand that..");
 					Console.WriteLine();
 				}
 
